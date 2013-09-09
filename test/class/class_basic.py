@@ -9,3 +9,4 @@ class Service():
 	
 	def setname(self, name):
 		self.name = name
+		
