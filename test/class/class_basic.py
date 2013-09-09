@@ -5,7 +5,7 @@ class Service():
 	secret = "클래스의 시크릿."
 	def sum(self, a, b):
 		result = a+b
-		print("%s + %s = %s 입니다" %(a,b,result))
+		print("%s님 %s + %s = %s 입니다" %(self.name, a,b,result))
 	
 	def setname(self, name):
 		self.name = name
