@@ -2,8 +2,7 @@
 
 class housepark:
 	lastname = "박"
-	def setname(self):
-		name = input("이름을 입력하세요")
+	def __init__(self,name):
 		self.fullname = self.lastname + name
 
 	def travel(self):
