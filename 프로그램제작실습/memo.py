@@ -1,7 +1,8 @@
+# memo.py
 import sys
 import time
  
- def usange():
+def usage():
  	print("""
 Usage
 =====
@@ -20,4 +21,3 @@ elif sys.argv[1] == '-a':
 	f.write(time.ctime()+': '+word+'\n')
 	f.close()
 	print("Added")
-	
